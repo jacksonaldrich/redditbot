@@ -15,11 +15,11 @@ My score on this project should be X/30. I completed all of the tasks in `bot.py
 Output of `bot_counter.py` file:
 ```
 len(comments)= 1000
-len(top_level_comments)= X
-len(replies)= X
-len(valid_top_level_comments)= X
-len(not_self_replies)= X
-len(valid_replies)= X
+len(top_level_comments)= 840
+len(replies)= 160
+len(valid_top_level_comments)= 840
+len(not_self_replies)= 160
+len(valid_replies)= 160
 ========================================
 valid_comments= 1000
 ========================================
