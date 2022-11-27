@@ -9,6 +9,16 @@ My score on this project should be 31/30. I completed all of the tasks in `bot.p
 
 **Task 3:** Instead of having my bot reply randomly to posts, it now replies only to the most highly upvoted comment in a thread that it hasn't already replied to. I also ensured that my bot did not reply to itself! Therefore, I should get full credit.
 
+This is the code I used:
+```
+ comments_without_replies.sort(key = lambda x : x.score, reverse = True)
+        try:
+            comments_without_replies[0].reply(generate_comment())
+            # This line above takes the list and chooses the first value (0 index) which means it replies to the most upvoted comment in a thread
+        except (IndexError, praw.exceptions.RedditAPIException):
+            pass
+```
+
 **Task 4:** My bot upvotes any comment or submission that mentions my favorite candidates "Biden", "Hillary", and/or "Obama" and downvote any submission that mentions "Trump". I created a separate python file called `bot_vote.py` that performs the upvotes. This file loops over all of the all submissions in the class subreddit and perform the up and downvoting on all comments in each submission. Therefore, I should get full credit.
 
 Adding up all of the points:
