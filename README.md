@@ -14,7 +14,6 @@ This is the code I used:
  comments_without_replies.sort(key = lambda x : x.score, reverse = True)
         try:
             comments_without_replies[0].reply(generate_comment())
-            # This line above takes the list and chooses the first value (0 index) which means it replies to the most upvoted comment in a thread
         except (IndexError, praw.exceptions.RedditAPIException):
             pass
 ```
