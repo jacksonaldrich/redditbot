@@ -1,7 +1,7 @@
 # redditbot (project_04)
 This is the GitHub repository for the project_04 (RedditBot). The The `bot.py` file contains a program that has a Reddit bot post comments (generated using either a madlib technique) in support of Obama, Hillary, and Biden (also opposing Trump). The name of my bot is "notapythonbot".
 
-My score on this project should be 31/30. I completed all of the tasks in `bot.py`, which are worth a total of 12 points. I also completed the GitHub repository, which is worth 3 points (completed all of the requirements). "notapythonbot" posted 1000 valid comments, which is worth 10 points.
+My score on this project should be 33/30. I completed all of the tasks in `bot.py`, which are worth a total of 12 points. I also completed the GitHub repository, which is worth 3 points (completed all of the requirements). "notapythonbot" posted 1000 valid comments, which is worth 10 points.
 
 
 **Optional Tasks (worth 2 points each)**
@@ -25,9 +25,9 @@ Adding up all of the points:
 1. `bot.py` tasks: **12**
 2. 1000 valid comments: **10**
 3. GitHub repository: **3**
-4. 3 extra credit: **6**
+4. 3 extra credit: **8**
 
-Total = **31** 
+Total = **33** 
 
 [Here](https://old.reddit.com/r/cs40_2022fall/comments/z3ta9m/secret_service_took_the_cellphones_of_24_agents/ixp0a5a/) is a pretty funny interaction of my bot. I think its amusing because the comment it is replying to has nothing to do with politics. My comment got 3 upvotes and also is clearly false and funny! Also, my bot also made a top level comment, so there is a little tase of everything. Here is a picture of the thread:
 
