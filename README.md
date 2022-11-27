@@ -4,7 +4,7 @@ This is the GitHub repository for the project_04 (RedditBot). The The `bot.py` f
 My score on this project should be **33/30**. I completed all of the tasks in `bot.py`, which are worth a total of 12 points. I also completed the GitHub repository, which is worth 3 points (completed all of the requirements). "notapythonbot" posted 1000 valid comments, which is worth 10 points.
 
 
-**Optional Tasks (worth 2 points each)**
+**Optional Tasks (worth 2 points each):**
 
 **Task 1:** I created a new file `bot_submissions.py` and place all of the code in this new file. I did **NOT** modify the `bot.py` file to create submissions. This bot created new submission posts instead of just new comments by scanning r/liberal and then posting these submission to our class subreddit. I should get full credit (**2 points**) since I have at least 200 submissions, and some are self posts and some link posts (no duplicates, too).
 
