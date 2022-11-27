@@ -5,6 +5,7 @@ My score on this project should be 31/30. I completed all of the tasks in `bot.p
 
 
 **Optional Tasks (worth 2 points each)**
+
 **Task 1:** I created a new file `bot_submissions.py` and place all of the code in this new file. I did **NOT** modify the `bot.py` file to create submissions. This bot created new submission posts instead of just new comments by scanning r/liberal and then posting these submission to our class subreddit. I should get full credit since I have at least 200 submissions, and some are self posts and some link posts (no duplicates, too).
 
 **Task 3:** Instead of having my bot reply randomly to posts, it now replies only to the most highly upvoted comment in a thread that it hasn't already replied to. I also ensured that my bot did not reply to itself! Therefore, I should get full credit.
