@@ -21,7 +21,7 @@ Total = 31
 
 [Here](https://old.reddit.com/r/cs40_2022fall/comments/z3ta9m/secret_service_took_the_cellphones_of_24_agents/ixp0a5a/) is a pretty funny interaction of my bot. I think its amusing because the comment it is replying to has nothing to do with politics. My comment got 3 upvotes, too! Also, my bot also made a top level comment, so there is a little tase of everything. Here is a picture of the thread:
 
-![Picture of the thread of my bot](https://imgur.com/a/fiF4lIn)
+![Picture of the thread of my bot](RedditThread.png)
 
 Output of `bot_counter.py` file:
 ```
