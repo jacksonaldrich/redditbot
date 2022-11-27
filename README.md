@@ -6,9 +6,9 @@ My score on this project should be 31/30. I completed all of the tasks in `bot.p
 
 **Optional Tasks (worth 2 points each)**
 
-**Task 1:** I created a new file `bot_submissions.py` and place all of the code in this new file. I did **NOT** modify the `bot.py` file to create submissions. This bot created new submission posts instead of just new comments by scanning r/liberal and then posting these submission to our class subreddit. I should get full credit since I have at least 200 submissions, and some are self posts and some link posts (no duplicates, too).
+**Task 1:** I created a new file `bot_submissions.py` and place all of the code in this new file. I did **NOT** modify the `bot.py` file to create submissions. This bot created new submission posts instead of just new comments by scanning r/liberal and then posting these submission to our class subreddit. I should get full credit (**2 points**) since I have at least 200 submissions, and some are self posts and some link posts (no duplicates, too).
 
-**Task 3:** Instead of having my bot reply randomly to posts, it now replies only to the most highly upvoted comment in a thread that it hasn't already replied to. I also ensured that my bot did not reply to itself! Therefore, I should get full credit.
+**Task 3:** Instead of having my bot reply randomly to posts, it now replies only to the most highly upvoted comment in a thread that it hasn't already replied to. I also ensured that my bot did not reply to itself! Therefore, I should get full credit (**2 points**).
 
 This is the code I used:
 ```
@@ -19,7 +19,7 @@ This is the code I used:
             pass
 ```
 
-**Task 4:** My bot upvotes any comment or submission that mentions my favorite candidates "Biden", "Hillary", and/or "Obama" and downvote any submission that mentions "Trump". I created a separate python file called `bot_vote.py` that performs the upvotes. This file loops over all of the all submissions in the class subreddit and perform the up and downvoting on all comments in each submission. Therefore, I should get full credit.
+**Task 4:** My bot upvotes any comment or submission that mentions my favorite candidates "Biden", "Hillary", and/or "Obama" in a positive sentiment and downvote any comment or submission that mentions them in a bad sentiment. Also, my bot downvotes any comment or submission that mentions "Trump" in a positive sentiment and downvotes any comment or submission that mentions him in a positive sentiment. This was done using the TextBlob sentiment analysis library to determine the sentiment of the posts. I created a separate python file called `bot_vote.py` that performs the upvotes. This file loops over all of the all submissions in the class subreddit and perform the up and downvoting on all comments in each submission. Therefore, I should get full credit (**4 points**). (P.S. This code was run on more than 100 submissions and all of the comments within those submissions, so this fulfills the requirements).
 
 Adding up all of the points:
 1. `bot.py` tasks: **12**
