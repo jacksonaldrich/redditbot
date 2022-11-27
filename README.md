@@ -1,7 +1,7 @@
 # redditbot (project_04) IN PROGRESS
 This is the GitHub repository for the project_04 (RedditBot). The The `bot.py` file contains a program that has a Reddit bot post comments (generated using either a madlib technique) in support of Obama, Hillary, and Biden (also opposing Trump). The name of my bot is "notapythonbot".
 
-My score on this project should be X/30. I completed all of the tasks in `bot.py`, which are worth a total of 12 points. I also completed the GitHub repository, which is worth 3 points (completed all of the requirements). "notapythonbot" posted 1000 valid comments, which is worth 10 points.
+My score on this project should be 31/30. I completed all of the tasks in `bot.py`, which are worth a total of 12 points. I also completed the GitHub repository, which is worth 3 points (completed all of the requirements). "notapythonbot" posted 1000 valid comments, which is worth 10 points.
 
 
 **Optional Tasks (worth 2 points each)**
